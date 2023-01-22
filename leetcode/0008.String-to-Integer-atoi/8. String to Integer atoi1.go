@@ -1,7 +1,6 @@
 package leetcode
 
 import (
-	"fmt"
 	"math"
 	"strconv"
 )
@@ -48,6 +47,5 @@ func myAtoi1(s string) int {
 	if result < math.MinInt32 {
 		result = math.MinInt32
 	}
-	fmt.Println(math.MinInt)
 	return int(result)
 }
