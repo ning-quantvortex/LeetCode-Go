@@ -56,7 +56,7 @@ func Test_Problem8(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans8, q.para8
-		fmt.Printf("【input】:%v    【output】:%v\n", p.one, myAtoi(p.one))
+		fmt.Printf("【input】:%v    【output】:%v\n", p.one, myAtoi1(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }
