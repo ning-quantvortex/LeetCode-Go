@@ -41,7 +41,7 @@ func Test_Problem11(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans11, q.para11
-		fmt.Printf("【input】:%v    【output】:%v\n", p.one, maxArea(p.one))
+		fmt.Printf("【input】:%v    【output】:%v\n", p.one, maxArea1(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }
