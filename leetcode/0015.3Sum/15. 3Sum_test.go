@@ -53,7 +53,7 @@ func Test_Problem15(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans15, q.para15
-		fmt.Printf("【input】:%v       【output】:%v\n", p, threeSum(p.a))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, threeSum2(p.a))
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -44,7 +44,7 @@ func Test_Problem14(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans14, q.para14
-		fmt.Printf("【input】:%v    【output】:%v\n", p.strs, longestCommonPrefix(p.strs))
+		fmt.Printf("【input】:%v    【output】:%v\n", p.strs, longestCommonPrefix1(p.strs))
 	}
 	fmt.Printf("\n\n\n")
 }
